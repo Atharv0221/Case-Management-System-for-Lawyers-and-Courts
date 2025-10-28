@@ -112,7 +112,7 @@ void inorder(AVLNode* n) {
     inorder(n->right);
 }
 
-// ---------------- CASE MANAGER (Non-OOP) ----------------
+// ---------------- CASE MANAGER ----------------
 unordered_map<int, Case> caseMap;
 unordered_map<int, CaseProgress> progressMap;
 AVLNode* avlRoot = nullptr;
@@ -297,3 +297,4 @@ int main() {
         pauseAndClear();
     }
 }
+
